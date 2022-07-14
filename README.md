@@ -24,8 +24,6 @@ If not, install make using the commands below: <br/>
 <code> sudo apt-get install make </code>
 
 ## Usage
-After you have cloned the repository, navigate into it and create a directory name 'bin'.
-
 In the terminal, navigate to the Multiplicative_Inverse_Repo directory. To display the multiplicative inverse of all values from 0 -> 255 enter the following 
 below: <br/>
 <code> make </code> <br/>
@@ -36,10 +34,8 @@ To locate the multiplicative inverse of a desired value from 0 -> 255 enter the 
 <code> ./bin/mi_demo [INPUT_VALUE] </code>
 
 If a value is entered out of bounds the following error will be displayed. <br />
-<code>
-    ERROR: Input value is out of range. <br>
-    Please enter a value (0 - 255).
-</code>
+<code>ERROR: Input value is out of range. </code> <br>
+<code>Please enter a value (0 - 255). </code>
 
 
 ## Resources
